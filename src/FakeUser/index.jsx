@@ -24,7 +24,6 @@ export default function FakeUser () {
 
     }
 
-    console.log(user);
 
     const initPosts = async() => {
         const posts1= await userService.getUserPosts()
